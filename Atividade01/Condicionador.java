@@ -60,7 +60,7 @@ public class Condicionador {
         if (temperatura > 0) {
             return "Nome do ar condicionado: " + getNome() + " Temperatura atual: " + getTemperatura() + "•C.";
         } else {
-            return "Nome do ar condicionado: " + getNome() + " Temperatura atual: " + getTemperatura() + "•C." + "O ar condicionado está desligado!";
+            return "Nome do ar condicionado: " + getNome() + " Temperatura atual: " + getTemperatura() + "•C." + " O ar condicionado está desligado!";
         }
     }
 }
