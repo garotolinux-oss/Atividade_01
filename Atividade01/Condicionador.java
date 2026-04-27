@@ -9,6 +9,12 @@ public class Condicionador {
         this.temperatura = 0;
 
     }
+    
+    public Condicionador() {
+        this.nome = "generico";
+        this.temperatura = 0;
+    }
+
     //getters and setters
     public String getNome() {
         return nome;
@@ -58,9 +64,9 @@ public class Condicionador {
     public String toString() {
         
         if (temperatura > 0) {
-            return "Nome do ar condicionado: " + getNome() + " Temperatura atual: " + getTemperatura() + "•C.";
+            return "Nome do ar condicionado: " + getNome() + ". Temperatura atual: " + getTemperatura() + "•C.";
         } else {
-            return "Nome do ar condicionado: " + getNome() + " Temperatura atual: " + getTemperatura() + "•C." + " O ar condicionado está desligado!";
+            return "Nome do ar condicionado: " + getNome() + ". Temperatura atual: " + getTemperatura() + "•C." + " O ar condicionado está desligado!";
         }
     }
 }
